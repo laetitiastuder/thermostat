@@ -1,0 +1,93 @@
+* {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+.low-usage {
+  color: blue;
+}
+
+.medium-usage {
+  color: black;
+}
+
+.high-usage {
+  color: red;
+}
+
+button, #submit {
+  background-color: rgb(100, 225, 212);
+  border: none;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-style: bold;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+form ion-icon {
+  width: 10%;
+  font-size: 14px;
+  margin: -6px;
+  /* padding-right: 9px; */
+  color: rgb(75, 75, 75);
+}
+
+#submit {
+  background-color: rgb(45, 53, 61);
+  color: antiquewhite;
+  padding: 8px 10px;
+  font-size: 14px;
+}
+
+input[type=text] {
+  width: 25%;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border: 1px solid rgb(45, 53, 61);
+  border-radius: 4px;
+  background-image: url('searchicon.png');
+}
+
+
+#temperature-up {
+  background-color: rgb(239, 148, 141);
+}
+
+#temperature-down {
+  background-color: rgb(61, 140, 231);
+}
+
+#temperature-reset {
+  background-color: rgb(45, 53, 61);
+  color: antiquewhite;
+}
+
+#powersaving_on{
+  background-color: rgb(45, 53, 61);
+  color: antiquewhite;
+}
+
+#powersaving_on:hover, #powersaving_off:hover, #temperature-reset:hover {
+  background-color: antiquewhite;
+  color: rgb(45, 53, 61);
+  border: 1px solid rgb(45, 53, 61);
+}
+
+#powersaving_off {
+  background-color: rgb(45, 53, 61);
+  color: antiquewhite;
+}
+
+img {
+  width: 60px;
+    height: 60px;
+    object-fit: contain;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thermostat</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="content">
+   <!-- Weather API --> 
+  <section>
+    <h2> Temperature in <span id="city"></span></h2>
+    <h2><span id="current-temperature"></span> °C</h2>
+  
+    <h3><span id="weather-icon"><img src="icons/02d.png"/></span>  <span id="description"></span></h3>
+    <form id="select-city">
+      <input id="current-city" type="text" placeholder="Enter another city">
+      <ion-icon name="search"></ion-icon>
+    </input>
+       <!-- <input id="submit" type="submit">  --> 
+    </form>
+  </section>
+  </div>
+  <!-- Thermostat --> 
+  <div class="content2">
+  <section>
+    <h2>Thermostat on <span id="temperature" ></span></div></h2>
+    <p>
+      <div class="tempButtons">
+      <button id="temperature-up">+</button>
+      <button id="temperature-down">-</button>
+      <button id="temperature-reset">reset</button>
+    </div>
+  </br>
+      <h3>Power Saving Mode is <span id="power-saving-status">ON</span></h3>
+      <div class="PSButtons">
+      <button id="powersaving_on">ON</button>
+      <button id="powersaving_off">OFF</button>
+    </div>
+    </p>
+  </section>
+</div>
+<script src="Thermostat.js"></script>
+<script src="interface.js"></script>
+<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
